@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>This is the Title of the page</title>
+<title> Css 3 Setting margin | Session 4 Assignment 4.2</title>
+<style>
+/* Initial box styling */
+div {
+  background-color: green;
+  color: #fff;
+  width: 100px;
+  height: 60px;
+  text-align: center;
+  padding-top: 40px;
+}
+  
+/* Div hover animation styles */
+div:hover {
+  animation-name: changecolor;
+  animation-duration: 4s;
+}
+  
+/* animation styles */
+@keyframes changecolor {
+  0% {
+    background-color: green;
+  }
+  25% {
+    background-color: orange;
+    border-radius: 50%;
+  }
+   50% {
+    background-color: orange;
+    border-radius: 50%;
+  }
+   75% {
+    background-color: orange;
+    border-radius: 50%;
+  }
+   100% {
+    background-color: orange;
+    border-radius: 50%;
+  }
+}
+  
+</style>
 </head>
-
+  
 <body>
-<h1>This is body of the page</h1>
-<p> Anything within the body of a web page is displayed in the main browser window</p>
-
+  <!-- Box html -->
+  <div>Box</div>
 </body>
+  
 </html>
